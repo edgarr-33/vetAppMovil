@@ -94,7 +94,7 @@ class _OnBoardingState extends State<OnBoarding> {
                           Navigator.pushNamed(context, 'progress') ;
                         }
                         else{
-                         controller.nextPage(duration: const Duration(milliseconds: 500), curve: Curves.easeIn);
+                         controller.nextPage(duration: const Duration(milliseconds: 250), curve: Curves.easeIn);
                           
                         }
 

@@ -142,8 +142,8 @@ class _LoginState extends State<Login> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Text('¿Ya tienes cuenta? ',
-                    style: TextStyle(fontSize: 13, ),
+                    const Text('¿Ya tienes cuenta?',
+                    style: TextStyle(fontSize: 14, ),
                     ),
                     TextButton(
                       onPressed: (){
